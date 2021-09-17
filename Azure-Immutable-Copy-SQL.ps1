@@ -1,3 +1,4 @@
+#copy-SQL
 #begin variables
 $SQLResourceGroup = "ImmutableTest" #RG of the SQL Server
 $StorageAccountResourceGroup = "ImmutableTest" #Storage Account containing the immutable container

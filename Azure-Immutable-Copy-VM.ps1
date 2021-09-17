@@ -1,3 +1,4 @@
+#copy VMs
 #begin variables
 $SnapshotResourceGroupName = "ImmutableTest" #Where to store the Snapshots, script will create if not exist
 $Location = "westus2" #Location of the Snapshot RG, Should be same as VMs and Storage Account
