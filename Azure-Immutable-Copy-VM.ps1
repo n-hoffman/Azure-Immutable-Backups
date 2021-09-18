@@ -13,7 +13,6 @@ Catch { New-AzResourceGroup -Name  $SnapshotResourceGroupName -Location $Locatio
 #endregion
 #begin processing
 $Date = Get-Date -format MMddyyyy
-#collect snapshots
 $AllVMs = Get-AzVM 
 foreach ($v in $AllVMs) {
     $VMName = $V.Name
