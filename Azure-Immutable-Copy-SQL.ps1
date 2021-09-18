@@ -2,11 +2,11 @@
 #begin variables
 $SQLResourceGroup = "ImmutableTest" #RG of the SQL Server
 $StorageAccountResourceGroup = "ImmutableTest" #Storage Account containing the immutable container
-$SQLServerName = "server1432e" #SQL Server name
-$SQLUsername = "igadmin" #SQL admin account
-$SQLPassword = "Microsoft123" #SQL admin password - can also reference a key vault secret
+$SQLServerName = "xxxxxxxxxxxxxxx" #SQL Server name
+$SQLUsername = "xxxxxxxxxxxxxxx" #SQL admin account
+$SQLPassword = "xxxxxxxxxxxxxxx" #SQL admin password - can also reference a key vault secret
 $DatabaseNames = "DB1" #DBs to protect, for multiple DBs, use ("DB1","DB2")
-$StorageAccount = "nhtest34sdf34sfsfs"#Storage Account containing the immutable container
+$StorageAccount = "xxxxxxxxxxxxxxx"#Storage Account containing the immutable container
 $StorageAccountContainer = "3day-retention"#Immutable Container Name
 #endregion
 #begin processing
