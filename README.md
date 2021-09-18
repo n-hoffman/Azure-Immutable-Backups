@@ -4,5 +4,4 @@ These sample scripts will copy data into an Azure storage account. The storage a
 Files in this Project so far: 
 
 Azure-Immutable-Copy-VM.ps1 - Copy disks from one or more VMs (OS and Data Disks)
-
 Azure-Immutable-Copy-SQL.ps1 - Copy one or more SQL databases
