@@ -1,7 +1,7 @@
 ﻿<#-----------------------------------------------------------------------------------------------------------------------------------
 -Introduction:
 
--    Files included in this package  :
+-    Files included in this package   :
 -    Cerberus Azure VM Build List.xlsx (file used to define the VMs to build)
 -    <=Script input csv file=> - Save the completed xlsx file to a csv for script execution
 -    Cerberus Azure VM Build Script.ps1 (this script, which builds VMs based on the csv input file)
